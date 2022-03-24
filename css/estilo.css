@@ -1,20 +1,29 @@
 body{
-  background-color: #A9A9A9;
+  background-color:#87CEEB;
 
 }
 
-,cotainer}
+.cotainer}
 
     width: 80%;
-    
-margin:auto;
+    margin:auto;
 
 h1{
   text-algn: center;
 } 
-img{
-  wigth: 30%;
+img_corpo{
+  wigth: 40%;
 }
 figure{
   text-align: center;
+}
+.img_topo{
+  width: 100%;
+}
+p{
+font-size: 1.5;
+color: #1C1C1C
+font-weight: bold;
+text-indent: 50px;
+text-align: justify;
 }
