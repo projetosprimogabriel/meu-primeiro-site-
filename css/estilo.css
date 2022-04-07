@@ -1,9 +1,9 @@
 body{
-  background-color:#87CEEB;
+  background-color:#fad27b;
 
 }
 
-.cotainer}
+.cotainer{
 
     width: 80%;
     margin:auto;
@@ -18,12 +18,25 @@ figure{
   text-align: center;
 }
 .img_topo{
-  width: 100%;
+  width: 80%;
 }
 p{
 font-size: 1.5;
-color: #1C1C1C
+color: #000000
 font-weight: bold;
 text-indent: 50px;
 text-align: justify;
 }
+
+p.italic {
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
