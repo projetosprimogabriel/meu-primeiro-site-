@@ -14,6 +14,30 @@ html {
   scroll-behavior: smooth;
 }
 
+a:link {
+  color: #5350eb;
+}
+
+a:visited {
+  color: #009efa;
+}
+
+a:hover {
+  color: #82f0dd;
+}
+
+a:active {
+  color: #00ffea;
+}
+
+
+.coisinha{
+text-align: center;
+font-size: 1.5em;
+}
+p{
+  text-align: center;
+}
 
 h1{
  color: #ffffff;
@@ -25,7 +49,6 @@ figure{
 }
 
 p{
-font-size: 1.5;
 color: #ffffff;
 text-indent: 50px;
 
@@ -53,6 +76,17 @@ footer{
 
 .itens_menu{
   text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+  border-style: solid;
+    font-size: 1.50em;
+    line-height: 1.3;
+    padding: 0.5%;
+    font-weight: bolder;
+    text-indent: 50px;
 }
 
 
