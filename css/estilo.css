@@ -17,6 +17,7 @@ html {
 
 h1{
  color: #ffffff;
+ text-align: center;
 } 
 
 figure{
@@ -48,14 +49,11 @@ footer{
  width: 500px;
  float: right;
  margin: 1%;
-
- 
-   
-    
- 
 }
 
-
+.itens_menu{
+  text-align: center;
+}
 
 
 
