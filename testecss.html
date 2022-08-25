@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,13 +16,83 @@
     p{
         color: blue;
     }
+    .container{
+            position:relative;
+            background-color: blueviolet;
+            width: 100%;
+            height: 1220px;
+            text-align: center;
+        }
+
+        .topoesquerda{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: chartreuse;    
+        }
+        .topodireita{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(1, 255, 158)
+        }
+        .centro {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            background-color: aqua;
+        }
+        .baixoesquerda{
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: azure;
+        }
+        .baixodireita{
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: blue;
+        }
+
+        .fixo{
+            position: fixed;
+            z-index: 1030;
+            left: 0%;
+            right: 0%;
+            top: 0%;
+        }
     </style>
 </head>
 <body>
-    <h1 style="color: blue;" teste css h1>
+    <header>
+        <h1 class="fixo" style="background-color:brown;color: cyan;"> Teste CSS interno e Inline </h1>
+        <p style="background-color: aquamarine; font-style: italic;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae esse atque autem rem aliquam. Iure laboriosam beatae in quidem possimus voluptatem, explicabo cupiditate aut minima natus quibusdam impedit quasi magni!</p>
+        <p style="background-color: aquamarine; font-style: italic;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, corporis molestias itaque, ut perferendis tempora voluptate quibusdam beatae ea voluptas omnis rem commodi laboriosam odit nostrum architecto, quaerat consectetur corrupti!</p>
+    </header>
+    <div class="main">
+        <h1>Testando....</h1>
+        <div class="container">
+            <div class="topoesquerda">TopoEsq</div>
+            <div class="topodireita">Topodirt</div>
+            <div class="baixoesquerda">baixoesq</div>
+            <div class="baixodireita">baixodirt</div>
+            <div class="centro">centro</div>
+        </div>
 
-
-
-
+    </div>
+     
+    
+       
 </body>
 </html>
